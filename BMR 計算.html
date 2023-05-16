@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMR 計算機</title>
+    <script>
+        function calculateBMR() {
+            var weight = parseFloat(document.getElementById("weight").value);
+            var height = parseFloat(document.getElementById("height").value);
+            var age = parseInt(document.getElementById("age").value);
+            var gender = document.getElementById("gender").value;
+
+            var resultElement = document.getElementById("result");
+
+            if (isNaN(weight) || isNaN(height) || isNaN(age)) {
+                resultElement.innerHTML = "請輸入有效的數值。";
+                return;
+            }
+
+            if (gender === "male") {
+                var bmr = 66 + (13.75 * weight) + (5 * height) - (6.8 * age);
+            } else if (gender === "female") {
+                var bmr = 655 + (9.56 * weight) + (1.85 * height) - (4.68 * age);
+            } else {
+                resultElement.innerHTML = "請選擇正確的性別（男性或女性）。";
+                return;
+            }
+
+            resultElement.innerHTML = "您的基礎代謝率（BMR）為： " + bmr.toFixed(2) + " 卡路里/日";
+        }
+    </script>
+</head>
+<body>
+    <h1>BMR 計算機</h1>
+    <form>
+        <label for="weight">體重（公斤）：</label>
+        <input type="text" id="weight" name="weight"><br><br>
+        
+        <label for="height">身高（公分）：</label>
+        <input type="text" id="height" name="height"><br><br>
+        
+        <label for="age">年齡：</label>
+        <input type="text" id="age" name="age"><br><br>
+        
+        <label for="gender">性別：</label>
+        <select id="gender" name="gender">
+            <option value="male">男性</option>
+            <option value="female">女性</option>
+        </select><br><br>
+        
+        <input type="button" value="計算" onclick="calculateBMR()">
+    </form>
+    
+    <p id="result"></p>
+</body>
+</html>
