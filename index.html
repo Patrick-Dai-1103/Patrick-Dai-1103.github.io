@@ -2,6 +2,50 @@
 <html lang="en">
 
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+      $(document).ready(function() {
+        var id = prompt("Spoiler Alert!!! This website contains contents of the film John Wick: Chapter 4. If you are afraid to be spoiled, please press the button ' 取消 ' to hide relevant contents. If you don't, enter the password ' JW ' then press the button ' 確定 ' to see contents of Jown Wick: Chapter 4.");
+        if (id === 'JW') {
+          $('#john-wick-chapter-4').show();
+          $('#john-wick-chapter-4-filter').show();
+          $('#john-wick-chapter-4-button').show();
+          $('#john-wick-chapter-4-1').show();
+          $('#john-wick-chapter-4-2').show();
+          $('#john-wick-chapter-4-3').show();
+          $('#john-wick-chapter-4-4').show();
+          $('#john-wick-chapter-4-5').show();
+          $('#john-wick-chapter-4-6').show();
+          $('#john-wick-chapter-4-7').show();
+          $('#john-wick-chapter-4-8').show();
+          $('#john-wick-chapter-4-9').show();
+          $('#john-wick-chapter-4-10').show();
+          $('#john-wick-chapter-4-11').show();
+          $('#john-wick-chapter-4-12, #john-wick-chapter-4-12 *').show();
+          $('#john-wick-chapter-4-13, #john-wick-chapter-4-13 *').show();
+          $('#john-wick-chapter-4-14, #john-wick-chapter-4-14 *').show();
+  } else {
+          $('#john-wick-chapter-4').hide();
+          $('#john-wick-chapter-4-filter').hide();
+          $('#john-wick-chapter-4-button').hide();
+          $('#john-wick-chapter-4-1').hide();
+          $('#john-wick-chapter-4-2').hide();
+          $('#john-wick-chapter-4-3').hide();
+          $('#john-wick-chapter-4-4').hide();
+          $('#john-wick-chapter-4-5').hide();
+          $('#john-wick-chapter-4-6').hide();
+          $('#john-wick-chapter-4-7').hide();
+          $('#john-wick-chapter-4-8').hide();
+          $('#john-wick-chapter-4-9').hide();
+          $('#john-wick-chapter-4-10').hide();
+          $('#john-wick-chapter-4-11').hide();
+          $('#john-wick-chapter-4-12, #john-wick-chapter-4-12 *').hide();
+          $('#john-wick-chapter-4-13, #john-wick-chapter-4-13 *').hide();
+          $('#john-wick-chapter-4-14, #john-wick-chapter-4-14 *').hide();
+  }
+});
+  </script>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -46,7 +90,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/John Wick/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/John Wick - Individual/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">John Wick</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -60,10 +104,10 @@
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Characters</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#About" class="nav-link scrollto"><i class="bi bi-person-lines-fill"></i> <span>About</span></a></li>
+          <li><a href="#Fighting Skills" class="nav-link scrollto"><i class="bi bi-fire"></i> <span>Fighting Skills</span></a></li>
+          <li><a href="#Characters" class="nav-link scrollto"><i class="bi bi-people"></i></i> <span>Characters</span></a></li>
+          <li><a href="#Quotes" class="nav-link scrollto"><i class="bi bi-chat-quote"></i> <span>Quotes</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -81,9 +125,8 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="About" class="about">
       <div class="container">
-
         <div class="section-title">
           <h2>About</h2>
            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -94,27 +137,25 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7" id="john-wick-chapter-4"></button>
             </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="assets/img/John Wick/Everything's got a price.jpg" class="d-block w-100" alt="...">
+                  <img src="assets/img/John Wick - Individual/Everything's got a price.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>John Wick ( 2014 )</h5>
                   <h4>Everything's got a price.</h4>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/John Wick/Of course... But it won't matter.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/John Wick - Individual/Of course... But it won't matter.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>John Wick ( 2014 )</h5>
                   <h4>Of course... But it won't matter.</h4>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/John Wick/You Want A War Or Do You Wanna Just Give Me A Gun.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/John Wick - Individual/You Want A War Or Do You Wanna Just Give Me A Gun.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>John Wick: Chapter 2 ( 2017 )</h5>
                   <h4>So I guess you have a choice.</h4>
@@ -122,14 +163,14 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/John Wick/You wanted me back. I'm back.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/John Wick - Individual/You wanted me back. I'm back.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>John Wick: Chapter 2 ( 2017 )</h5>
                   <h4>You wanted me back. I'm back.</h4>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/John Wick/Tell them. Tell them all. Whoever comes, whoever it is, I’ll kill them. I’ll kill them all..jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/John Wick - Individual/Tell them. Tell them all. Whoever comes, whoever it is, I’ll kill them. I’ll kill them all..jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>John Wick: Chapter 2 ( 2017 )</h5>
                   <h4>Winston. Tell them. Tell them all.</h4>
@@ -137,14 +178,14 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/John Wick/Guns. Lots of guns._Flip Image.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/John Wick - Individual/Guns. Lots of guns._Flip Image.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>John Wick: Chapter 3 – Parabellum ( 2019 )</h5>
                   <h4>Guns. Lots of guns.</h4>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img src="assets/img/John Wick/You and I left a good life behind a long time ago, my friend.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-item" id="john-wick-chapter-4">
+                <img src="assets/img/John Wick - Individual/You and I left a good life behind a long time ago, my friend.jpeg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>John Wick: Chapter 4 ( 2023 )</h5>
                   <h4>You and I left a good life behind a long time ago, my friend.</h4>
@@ -161,11 +202,8 @@
             </button>
           </div>
            </div>
-          <div class="col-lg-7 pt-5 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-12 pt-5 pt-lg-0 content" data-aos="fade-left">
             <h3>Information</h3>
-            <p class="fst-italic">
-              "John is a man of focus. Commitment. And sheer will... something you know very little about. I once saw him kill three men in a bar... with a pencil, with a f**king pencil." by Viggo Tarasov
-            </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -187,17 +225,19 @@
               </div>
             </div>
             <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+              
             </p>
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/qEVUtrk8_B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-      </iframe>
-    <!-- ======= Facts Section ======= -->
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qEVUtrk8_B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/U2Z2nyoBC6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <!-- ======= Facts Section
     <section id="facts" class="facts">
       <div class="container">
 
@@ -243,15 +283,15 @@
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+    </section> End Facts Section -->
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <!-- ======= Fighting Skills Section ======= -->
+    <section id="Fighting Skills" class="skills section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Fighting Skills</h2>
+          <p></p>
         </div>
 
         <div class="row skills-content">
@@ -259,23 +299,23 @@
           <div class="col-lg-6" data-aos="fade-up">
 
             <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
+              <span class="skill">Brazilian Jiu-Jitsu <i class="val">95%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
+              <span class="skill">Judo <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <span class="skill">Karate <i class="val">86%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -284,23 +324,23 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <span class="skill">Sambo <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <span class="skill">Kali <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Shoot Wrestling <i class="val">92%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -311,7 +351,7 @@
       </div>
     </section><!-- End Skills Section -->
 
-    <!-- ======= Resume Section ======= -->
+    <!-- ======= Resume Section 
     <section id="resume" class="resume">
       <div class="container">
 
@@ -375,124 +415,410 @@
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
+    </section> End Resume Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <!-- ======= Characters Section ======= -->
+    <section id="Characters" class="portfolio section-bg">
       <div class="container">
-
         <div class="section-title">
           <h2>Characters</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
-
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-1"><button type="button" class="btn btn-outline-dark">John Wick</button></li>
+              <li data-filter=".filter-2"><button type="button" class="btn btn-outline-success">John Wick: Chapter 2</button></li>
+              <li data-filter=".filter-3"><button type="button" class="btn btn-outline-warning">John Wick: Chapter 3 – Parabellum</button></li>
+              <li id="john-wick-chapter-4-filter" data-filter=".filter-4"><button id="john-wick-chapter-4-button" type="button" class="btn btn-outline-danger">John Wick: Chapter 4</button></li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/John Wick.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/John Wick.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="John Wick"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/John_Wick" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/Helen Wick.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/Helen Wick.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Helen_Wick"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Helen Wick" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/Viggo Tarasov.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/Viggo Tarasov.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Viggo Tarasov"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Viggo_Tarasov" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/Iosef Tarasov.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/Iosef Tarasov.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Iosef Tarasov"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Iosef_Tarasov" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/Winston.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/Winston.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Winston Scott"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Winston_Scott" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/Marcus.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/Marcus.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Marcus"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Marcus" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/Ms. Perkins.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/Ms. Perkins.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ms. Perkins"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Ms._Perkins" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/Charon.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/Charon.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Charon"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Charon" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-2 col-md-4 portfolio-item filter-1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/John Wick Characters/Aurelio.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/John Wick Characters/Aurelio.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Aurelio"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Aurelio" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
+          <div class="col-lg-2 col-md-4 portfolio-item filter-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 2 Characters/John Wick.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 2 Characters/John Wick.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="John Wick"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/John_Wick" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-lg-2 col-md-4 portfolio-item filter-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 2 Characters/Winston.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 2 Characters/Winston.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Winston Scott"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Winston_Scott" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 2 Characters/Santino D'Antonio.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 2 Characters/Santino D'Antonio.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Santino D'Antonio"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Santino_D%27Antonio" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 2 Characters/Gianna D'Antonio.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 2 Characters/Gianna D'Antonio.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gianna D'Antonio"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Gianna_D%27Antonio" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 2 Characters/The Bowery King.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 2 Characters/The Bowery King.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Bowery King"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/The_Bowery_King" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 2 Characters/Cassian.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 2 Characters/Cassian.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cassian"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Cassian" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+     
+          <div class="col-lg-2 col-md-4 portfolio-item filter-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 2 Characters/Ares.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 2 Characters/Ares.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ares"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Ares" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+     
+          <div class="col-lg-2 col-md-4 portfolio-item filter-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 2 Characters/Charon.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 2 Characters/Charon.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Charon"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Charon" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/John Wick.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 3 Characters/John Wick.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="John Wick"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/John_Wick" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/Winston.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 3 Characters/Winston.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Winston Scott"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Winston_Scott" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/The Bowery King.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 3 Characters/The Bowery King.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Bowery King"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/The_Bowery_King" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/The Adjudicator.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Adjudicator"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/The_Adjudicator" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/Zero.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zero"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Zero" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/Sofia.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sofia Al-Azwar"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Sofia_Al-Azwar" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/Charon.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Charon"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Charon" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/The Director.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Director"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/The_Director" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/The Elder.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Elder"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/The_Elder" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 3 Characters/Tick Tock Man.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 3 Characters/Tick Tock Man.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tick Tock Man"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Tick_Tock_Man" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/John Wick.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/John Wick.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="John Wick"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/John_Wick" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/Caine.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/Caine.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Caine"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Caine" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/Winston.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/Winston.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Winston Scott"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Winston_Scott" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-4">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/The Bowery King.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/The Bowery King.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Bowery King"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/The_Bowery_King" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-5">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/Marquis Vincent Bisset de Gramont.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/Marquis Vincent Bisset de Gramont.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Marquis Vincent Bisset de Gramont"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Marquis_Vincent_de_Gramont" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-6">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/Tracker (Mr. Nobody).jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/Tracker (Mr. Nobody).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tracker / Mr. Nobody"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Tracker" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-7">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/Koji Shimazu.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/Koji Shimazu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Koji Shimazu"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Koji_Shimazu" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-8">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/Akira Shimazu.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/Akira Shimazu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Akira Shimazu"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Akira_Shimazu" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-9">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/Charon.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/Charon.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Charon"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Charon" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-10">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/The Harbinger.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/The Harbinger.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Harbinger"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/The_Harbinger" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 portfolio-item filter-4" id="john-wick-chapter-4-11">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Chapter 4 Characters/Killa Harkan.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/Chapter 4 Characters/Killa Harkan.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Killa Harkan"><i class="bx bx-plus"></i></a>
+                <a href="https://johnwick.fandom.com/wiki/Killa_Harkan" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Characters Section -->
 
     <!-- ======= Services Section ======= 
     <section id="services" class="services">
@@ -539,13 +865,12 @@
       </div>
     </section> End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <!-- ======= Quotes Section ======= -->
+    <section id="Quotes" class="testimonials section-bg">
       <div class="container">
 
         <div class="section-title">
           <h2>Quotes</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -558,11 +883,11 @@
                   John is a man of focus. Commitment. And sheer will... something you know very little about. I once saw him kill three men in a bar... with a pencil, with a f**king pencil.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/John Wick Characters/Viggo Tarasov 2.jpg" class="testimonial-img" alt="">
                 <h3>Viggo Tarasov</h3>
                 <h4>Head of the Tarasov Mob</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End Quotes item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
@@ -571,48 +896,74 @@
                   No wife, no dog, no home. You have nothing, John. Vengeance is all you have left.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/Chapter 2 Characters/Santino D'Antonio 2.jpg" class="testimonial-img" alt="">
                 <h3>Santino D'Antonio</h3>
                 <h4>The Head of Comorra (High Table)</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End Quotes item -->
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  You stabbed the devil in the back and forced him back into the life that he had just left. You incinerated the priest's temple. Burned it to the ground. Now he's free of the marker, what do you think he'll do?
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/Chapter 2 Characters/Winston 2.jpg" class="testimonial-img" alt="">
+                <h3>Winston Scott</h3>
+                <h4>The Managerr of New York Continental Hotel</h4>
+              </div>
+            </div><!-- End Quotes item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  As I live and breathe! John Wick. The Man. The Myth, The Legend. You're not very good at retiring.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src="assets/img/Chapter 2 Characters/The Bowery King.jpg" class="testimonial-img" alt="">
+                <h3>The Bowery King</h3>
+                <h4>Crime Lord & Data Trafficker</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End Quotes item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
+            <div class="swiper-slide" id="john-wick-chapter-4-12">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                   I want you to find your peace. But a good death only comes after a good life.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <img src="assets/img/Chapter 4 Characters/Koji Shimazu 2.jpg" class="testimonial-img" alt="">
+                <h3>Koji Shimazu</h3>
+                <h4>The Manager of Osaka Continental Hotel</h4>
+              </div>
+            </div><!-- End Quotesl item -->
+
+            <div class="swiper-slide" id="john-wick-chapter-4-13">
+              <div id ="" class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Friendship means little when it's convenient.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/Chapter 4 Characters/Koji Shimazu 3.jpg" class="testimonial-img" alt="">
+                <h3>Koji Shimazu</h3>
+                <h4>The Manager of Osaka Continental Hotel</h4>
+              </div>
+            </div><!-- End Quotes item -->
+
+            <div class="swiper-slide" id="john-wick-chapter-4-14">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fools talk, cowards are silent, but wise men listen.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/Chapter 4 Characters/Koji Shimazu 4.jpg" class="testimonial-img" alt="">
+                <h3>Koji Shimazu</h3>
+                <h4>The Manager of Osaka Continental Hotel</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -621,7 +972,7 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Quotes Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -629,7 +980,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>If you want to learn further information about us or have some useful suggestions about our website design, please contact us through the information below.</p>
         </div>
 
         <div class="row" data-aos="fade-in">
@@ -654,41 +1005,17 @@
                 <p>03-422-7151</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.9400046605224!2d121.19272387505616!3d24.968155777859113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1683256705693!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.9400046605224!2d121.19272387505616!3d24.968155777859113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1683256705693!5m2!1szh-TW!2stw" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
 
           </div>
+            <div class="col-lg-7" data-aos="fade-up">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvtVnGKe6q5IwKeE08auWii2ubFQPfPDzI59axiYcJqyvRDA/viewform?embedded=true" width="600" height="800" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+            </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
           </div>
+                
 
         </div>
 
